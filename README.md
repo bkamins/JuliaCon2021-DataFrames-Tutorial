@@ -3,6 +3,8 @@
 This is a tutorial on [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)
 prepared for [JuliaCon2021](https://juliacon.org/2021/).
 
+A video recording of the tutorial is available [here](https://www.youtube.com/watch?v=tJf24gfcSto).
+
 In order to run the tutorial make sure that you have Julia executable installed.
 The tutorial was tested under Julia 1.6.1.
 
