@@ -4,7 +4,11 @@ This is a tutorial on [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl
 prepared for [JuliaCon2021](https://juliacon.org/2021/).
 
 In order to run the tutorial make sure that you have Julia executable installed.
-The tutorial was tested under Julia 1.6.1.
+The tutorial was updated to Julia 1.7.0 and DataFrames.jl 1.3.0.
+
+To check the version presented during JuliaCon 2021 please check out
+this [commit](https://github.com/bkamins/JuliaCon2021-DataFrames-Tutorial/commit/9cdbb80e41c7f11b9e777d91ff394e40de6162b7)
+from the repository.
 
 Then the simplest way to run it is to proceed as follows:
 1. Clone the
@@ -19,15 +23,15 @@ Pkg.status()
 ```
 The last command should produce the following output:
 ```
-  [e28b5b4c] Bootstrap v2.3.2
-  [336ed68f] CSV v0.8.5
-  [324d7699] CategoricalArrays v0.10.0
-  [8be319e6] Chain v0.4.7
-  [a93c6f00] DataFrames v1.2.0
+  [e28b5b4c] Bootstrap v2.3.3
+  [336ed68f] CSV v0.9.11
+  [324d7699] CategoricalArrays v0.10.2
+  [8be319e6] Chain v0.4.10
+  [a93c6f00] DataFrames v1.3.0
   [38e38edf] GLM v1.5.1
   [7073ff75] IJulia v1.23.2
-  [91a5bcdd] Plots v1.18.2
-  [f3b207a7] StatsPlots v0.14.25
+  [91a5bcdd] Plots v1.25.1
+  [f3b207a7] StatsPlots v0.14.29
 ```
 4. Start Jupyter Notebook with:
 ```
