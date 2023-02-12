@@ -6,7 +6,7 @@ prepared for [JuliaCon2021](https://juliacon.org/2021/).
 A video recording of the tutorial is available [here](https://www.youtube.com/watch?v=tJf24gfcSto).
 
 In order to run the tutorial make sure that you have Julia executable installed.
-The tutorial was updated to Julia 1.8.2 and DataFrames.jl 1.4.0.
+The tutorial was updated to Julia 1.9.0 and DataFrames.jl 1.5.0.
 
 To check the version presented during JuliaCon 2021 please check out
 this [commit](https://github.com/bkamins/JuliaCon2021-DataFrames-Tutorial/commit/9cdbb80e41c7f11b9e777d91ff394e40de6162b7)
@@ -26,14 +26,14 @@ Pkg.status()
 The last command should produce the following output:
 ```
   [e28b5b4c] Bootstrap v2.3.3
-  [336ed68f] CSV v0.10.4
+  [336ed68f] CSV v0.10.9
   [324d7699] CategoricalArrays v0.10.7
   [8be319e6] Chain v0.5.0
-  [a93c6f00] DataFrames v1.4.0
-  [38e38edf] GLM v1.8.0
-  [7073ff75] IJulia v1.23.3
-  [91a5bcdd] Plots v1.35.2
-  [f3b207a7] StatsPlots v0.15.3
+  [a93c6f00] DataFrames v1.5.0
+  [38e38edf] GLM v1.8.1
+  [7073ff75] IJulia v1.24.0
+  [91a5bcdd] Plots v1.38.5
+  [f3b207a7] StatsPlots v0.15.4
 ```
 4. Start Jupyter Notebook with:
 ```
